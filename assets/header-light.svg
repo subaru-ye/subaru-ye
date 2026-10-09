@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Subaru Ye — Java, Go and AI Applications</title>
+  <desc id="desc">A quiet green developer banner with branching birch-inspired line art.</desc>
+  <rect width="1200" height="320" rx="16" fill="#f4f6ef"/>
+  <path d="M0 319H1200" stroke="#d9e2d3" stroke-width="2"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="56" y="62" fill="#496b55" font-size="14" font-weight="600" letter-spacing="3">BUILD · DEBUG · CONTRIBUTE</text>
+    <text x="52" y="158" fill="#183c2d" font-size="78" font-weight="700" letter-spacing="-3">SUBARU YE</text>
+    <text x="56" y="204" fill="#42614e" font-size="24">Java / Go / AI Applications</text>
+    <text x="56" y="265" fill="#617364" font-size="17">From useful products to upstream fixes.</text>
+  </g>
+  <g fill="none" stroke="#78977a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M905 320V62M905 176L842 113V75M905 224L963 166V95M905 126L943 88V46"/>
+    <path d="M1037 320V105M1037 229L989 181V145M1037 172L1096 113V77M1037 280L1090 227V191"/>
+    <path d="M812 320V189M812 253L775 216V178M812 228L848 192V169"/>
+  </g>
+  <g fill="#5c805e">
+    <circle cx="905" cy="62" r="5"/><circle cx="842" cy="75" r="4"/><circle cx="963" cy="95" r="4"/>
+    <circle cx="943" cy="46" r="4"/><circle cx="1037" cy="105" r="5"/><circle cx="1096" cy="77" r="4"/>
+    <circle cx="989" cy="145" r="4"/><circle cx="1090" cy="191" r="4"/><circle cx="775" cy="178" r="4"/>
+    <circle cx="848" cy="169" r="4"/><circle cx="812" cy="189" r="4"/>
+  </g>
+  <g stroke="#b8cbb3" stroke-width="3" stroke-linecap="round">
+    <path d="M897 263H906M904 285H914M1029 296H1038M1036 251H1046M806 286H813"/>
+  </g>
+</svg>
