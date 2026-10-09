@@ -64,12 +64,13 @@
 
 另有 [算法复盘](https://algo-replay.vercel.app/)：基于间隔重复的算法学习工具，使用 React / Vite 构建；[源码](https://github.com/subaru-ye/algo-replay)。
 
-## 技术方向
+## 专业技能
 
-| 方向 | 项目中使用的技术 |
-| :--- | :--- |
-| 后端与数据 | Java / Go · Spring Boot · MySQL / PostgreSQL · Redis · RabbitMQ |
-| AI 应用 | 工具调用 · Agent 工作流 · A2A · 规则校验 · 评估与回归验证 |
-| 前端与交付 | Vue / React · TypeScript · Next.js · Docker · Git |
+- **Agent 应用开发与架构**：具备基于 Google ADK、Pi 开发 Agent 应用的经验，熟悉多 Agent 编排、工具调用与 MCP 服务接入；理解模型推理与业务执行的职责边界，结合需求澄清、执行确认与权限校验设计任务链路。
+- **上下文工程与记忆管理**：具备多轮对话状态管理与分层记忆经验，结合结构化需求、近期对话和当前输入组织上下文，支持补参纠错、需求变更及用户确认的跨会话偏好复用。
+- **Agent 评测与优化**：具备冻结样本、Pass³ 与执行轨迹分析经验，定位工具选择、参数生成及状态更新问题；结合任务成功率、P95 延迟与调用成本，对照不同模型和提示词版本的效果。
+- **后端开发**：具备 Java、Go、TypeScript 服务端开发经验，熟悉 Spring Boot、Fastify；能够实现业务接口、权限校验、任务状态持久化与异常处理，具备单元测试及问题排查经验。
+- **数据库与缓存**：熟悉 MySQL、PostgreSQL / pgvector，掌握 Elasticsearch 全文检索与分布式搜索，具备 SQL 优化能力；使用 Redis 进行并发优化、缓存穿透 / 击穿 / 雪崩防护及 Bitmap 应用。
+- **中间件与实时通信**：熟悉 RabbitMQ 异步消息处理、WebSocket 双向通信，以及 Nacos 服务发现与配置管理。
 
 通过[个人作品集](https://baihua.vercel.app/)了解更多项目，或发送邮件至 [838184610@qq.com](mailto:838184610@qq.com)。
