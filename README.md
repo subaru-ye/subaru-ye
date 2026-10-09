@@ -6,8 +6,6 @@
 
 我是 **白桦（subaru-ye）**，华东交通大学软件工程本科在读，主攻 **Java 后端与 AI 应用工程化**，也使用 Go 构建 Agent 工具、参与开源开发工具的缺陷定位与修复。
 
-[个人作品集](https://baihua.vercel.app/) · [项目源码](https://github.com/subaru-ye?tab=repositories) · [开源 PR](https://github.com/search?q=is%3Apr+author%3Asubaru-ye+-user%3Asubaru-ye&type=pullrequests) · [邮箱](mailto:838184610@qq.com)
-
 ## 开源贡献
 
 已合并的代表修复：
