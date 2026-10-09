@@ -30,13 +30,13 @@
 
 ## 代表项目
 
-### [Tonight 云图库](https://github.com/subaru-ye/ye-picture)
+### [装机配置单 Agent](https://github.com/subaru-ye/pc-builder-agent)
 
-全栈图片管理系统，支持 AI 标注、团队空间、权限控制与实时协同编辑。
+面向预算与用途的对话式装机助手，支持需求确认、配置生成、增量改单和版本对比。
 
-- **工程重点**：空间级 RBAC、WebSocket 协作、RabbitMQ 异步通知，以及原图 / 压缩图 / 缩略图分级存储。
-- **技术栈**：Java · Spring Boot · MySQL · Redis · RabbitMQ · Vue / TypeScript
-- [功能与本地启动说明](https://github.com/subaru-ye/ye-picture#readme)
+- **工程重点**：LLM 负责意图与解释，规则引擎负责兼容性与核算；交付前复验，保留报价日期与证据。
+- **技术栈**：Go · A2A · PostgreSQL / pgvector · Redis · Next.js
+- [架构、运行与评估文档](https://github.com/subaru-ye/pc-builder-agent/tree/main/docs)
 
 ### [白桦网站秒搭](https://github.com/subaru-ye/ye-ai-web-factory)
 
@@ -46,13 +46,21 @@
 - **技术栈**：Java · Spring Boot · LangChain4j · Redis · SSE
 - [项目介绍](https://baihua.vercel.app/#projects) · [源码](https://github.com/subaru-ye/ye-ai-web-factory)
 
-### [装机配置单 Agent](https://github.com/subaru-ye/pc-builder-agent)
+### [Brain Rush · AI 闯关学习](https://github.com/subaru-ye/brain-rush)
 
-面向预算与用途的对话式装机助手，支持需求确认、配置生成、增量改单和版本对比。
+输入学习主题或材料，生成闯关题并获得即时讲解，完成后生成复盘报告，通过学习历史与错题本继续复训。
 
-- **工程重点**：LLM 负责意图与解释，规则引擎负责兼容性与核算；交付前复验，保留报价日期与证据。
-- **技术栈**：Go · A2A · PostgreSQL / pgvector · Redis · Next.js
-- [架构、运行与评估文档](https://github.com/subaru-ye/pc-builder-agent/tree/main/docs)
+- **工程重点**：pgvector 混合 RAG 优先召回自维护题库与知识片段，结合 AI 补题；提供知识库管理、异步资料导入与检索评估。
+- **技术栈**：Python · FastAPI · LangChain · PostgreSQL / pgvector · Redis / RQ · Taro / React / TypeScript
+- [功能与本地启动说明](https://github.com/subaru-ye/brain-rush#readme) · [设计与 RAG 文档](https://github.com/subaru-ye/brain-rush/tree/main/docs)
+
+### [Tonight 云图库](https://github.com/subaru-ye/ye-picture)
+
+全栈图片管理系统，支持 AI 标注、团队空间、权限控制与实时协同编辑。
+
+- **工程重点**：空间级 RBAC、WebSocket 协作、RabbitMQ 异步通知，以及原图 / 压缩图 / 缩略图分级存储。
+- **技术栈**：Java · Spring Boot · MySQL · Redis · RabbitMQ · Vue / TypeScript
+- [功能与本地启动说明](https://github.com/subaru-ye/ye-picture#readme)
 
 另有 [算法复盘](https://algo-replay.vercel.app/)：基于间隔重复的算法学习工具，使用 React / Vite 构建；[源码](https://github.com/subaru-ye/algo-replay)。
 
