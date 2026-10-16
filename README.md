@@ -8,10 +8,11 @@
 
 ## 开源贡献
 
-已合并的代表修复：
+**roborev：3 项 PR 已合并。** 代表贡献：
 
-| 项目 | 解决的问题 | 已合并 PR |
+| 项目 | 贡献内容 | 已合并 PR |
 | :--- | :--- | :--- |
+| **roborev** | 新增 ZCode Agent Hook 接入，支持客户端自动识别、插件式 hooks 与 MCP 配置安装；基于真实会话验证审查提醒及修复闭环。 | [#1368](https://github.com/kenn-io/roborev/pull/1368) |
 | **roborev** | 修复 Git hooks 自动维护修改工作区文件的问题，覆盖关联 worktree 场景，补充回归测试与文档。 | [#1178](https://github.com/kenn-io/roborev/pull/1178) |
 | **roborev** | 改进历史审查提示，避免重复报告已修复问题或要求撤销修复，补充回归测试。 | [#1271](https://github.com/kenn-io/roborev/pull/1271) |
 
@@ -21,7 +22,7 @@
 <summary>其他贡献与讨论</summary>
 
 - [OpenCodeReview #1539](https://github.com/alibaba/open-code-review/pull/1539)：为 Windows glob 路径误用提供警告，覆盖命令行参数与规则配置。
-- [roborev #1332](https://github.com/kenn-io/roborev/pull/1332)：为审查提示补充项目声明的 Go 版本上下文。
+- [roborev #1332](https://github.com/kenn-io/roborev/pull/1332)：按被审查版本与受影响模块读取 `go.mod`，为审查提示补充模块级 Go 版本上下文。
 - [pi #9361](https://github.com/earendil-works/pi/issues/9361#issuecomment-5676474857)：参与扩展工具丢失 shell 配置问题的定位、复现与方案讨论。
 
 以上为其他贡献记录；当前状态以各链接中的 GitHub 记录为准。
@@ -36,7 +37,6 @@
 
 - **工程重点**：LLM 负责意图与解释，规则引擎负责兼容性与核算；交付前复验，保留报价日期与证据。
 - **技术栈**：Go · A2A · PostgreSQL / pgvector · Redis · Next.js
-- [架构、运行与评估文档](https://github.com/subaru-ye/pc-builder-agent/tree/main/docs)
 
 ### [白桦网站秒搭](https://github.com/subaru-ye/ye-ai-web-factory)
 
@@ -44,7 +44,6 @@
 
 - **工程重点**：AI 生成链路、对话上下文管理、生成模式解耦与安全护轨。
 - **技术栈**：Java · Spring Boot · LangChain4j · Redis · SSE
-- [项目介绍](https://baihua.vercel.app/#projects) · [源码](https://github.com/subaru-ye/ye-ai-web-factory)
 
 ### [Brain Rush · AI 闯关学习](https://github.com/subaru-ye/brain-rush)
 
@@ -52,7 +51,6 @@
 
 - **工程重点**：pgvector 混合 RAG 优先召回自维护题库与知识片段，结合 AI 补题；提供知识库管理、异步资料导入与检索评估。
 - **技术栈**：Python · FastAPI · LangChain · PostgreSQL / pgvector · Redis / RQ · Taro / React / TypeScript
-- [功能与本地启动说明](https://github.com/subaru-ye/brain-rush#readme) · [设计与 RAG 文档](https://github.com/subaru-ye/brain-rush/tree/main/docs)
 
 ### [Tonight 云图库](https://github.com/subaru-ye/ye-picture)
 
@@ -60,9 +58,6 @@
 
 - **工程重点**：空间级 RBAC、WebSocket 协作、RabbitMQ 异步通知，以及原图 / 压缩图 / 缩略图分级存储。
 - **技术栈**：Java · Spring Boot · MySQL · Redis · RabbitMQ · Vue / TypeScript
-- [功能与本地启动说明](https://github.com/subaru-ye/ye-picture#readme)
-
-另有 [算法复盘](https://algo-replay.vercel.app/)：基于间隔重复的算法学习工具，使用 React / Vite 构建；[源码](https://github.com/subaru-ye/algo-replay)。
 
 ## 专业技能
 
@@ -72,5 +67,3 @@
 - **后端开发**：具备 Java、Go、TypeScript 服务端开发经验，熟悉 Spring Boot、Fastify；能够实现业务接口、权限校验、任务状态持久化与异常处理，具备单元测试及问题排查经验。
 - **数据库与缓存**：熟悉 MySQL、PostgreSQL / pgvector，掌握 Elasticsearch 全文检索与分布式搜索，具备 SQL 优化能力；使用 Redis 进行并发优化、缓存穿透 / 击穿 / 雪崩防护及 Bitmap 应用。
 - **中间件与实时通信**：熟悉 RabbitMQ 异步消息处理、WebSocket 双向通信，以及 Nacos 服务发现与配置管理。
-
-通过[个人作品集](https://baihua.vercel.app/)了解更多项目，或发送邮件至 [838184610@qq.com](mailto:838184610@qq.com)。
