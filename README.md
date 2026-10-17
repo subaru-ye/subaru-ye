@@ -8,10 +8,11 @@
 
 ## 开源贡献
 
-**roborev：3 项 PR 已合并。** 代表贡献：
+**roborev：4 项 PR 已合并。** 代表贡献：
 
 | 项目 | 贡献内容 | 已合并 PR |
 | :--- | :--- | :--- |
+| **roborev** | 为 AI 审查提供模块级 Go 版本基线，按被审查版本或工作区读取 `go.mod`，支持嵌套模块并补充回归测试。 | [#1332](https://github.com/kenn-io/roborev/pull/1332) |
 | **roborev** | 新增 ZCode Agent Hook 接入，支持客户端自动识别、插件式 hooks 与 MCP 配置安装；基于真实会话验证审查提醒及修复闭环。 | [#1368](https://github.com/kenn-io/roborev/pull/1368) |
 | **roborev** | 修复 Git hooks 自动维护修改工作区文件的问题，覆盖关联 worktree 场景，补充回归测试与文档。 | [#1178](https://github.com/kenn-io/roborev/pull/1178) |
 | **roborev** | 改进历史审查提示，避免重复报告已修复问题或要求撤销修复，补充回归测试。 | [#1271](https://github.com/kenn-io/roborev/pull/1271) |
@@ -22,7 +23,6 @@
 <summary>其他贡献与讨论</summary>
 
 - [OpenCodeReview #1539](https://github.com/alibaba/open-code-review/pull/1539)：为 Windows glob 路径误用提供警告，覆盖命令行参数与规则配置。
-- [roborev #1332](https://github.com/kenn-io/roborev/pull/1332)：按被审查版本与受影响模块读取 `go.mod`，为审查提示补充模块级 Go 版本上下文。
 - [pi #9361](https://github.com/earendil-works/pi/issues/9361#issuecomment-5676474857)：参与扩展工具丢失 shell 配置问题的定位、复现与方案讨论。
 
 以上为其他贡献记录；当前状态以各链接中的 GitHub 记录为准。
