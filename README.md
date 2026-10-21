@@ -31,12 +31,12 @@
 
 ## 代表项目
 
-### [装机配置单 Agent](https://github.com/subaru-ye/pc-builder-agent)
+### [装机配置单 · 多 Agent 协作系统](https://github.com/subaru-ye/pc-builder-agent)
 
-面向预算与用途的对话式装机助手，支持需求确认、配置生成、增量改单和版本对比。
+面向预算与用途的对话式装机助手，由需求初筛与配置规划两个 LLM Agent 分工协作，支持需求确认、配置生成、增量改单和版本对比。
 
-- **工程重点**：LLM 负责意图与解释，规则引擎负责兼容性与核算；交付前复验，保留报价日期与证据。
-- **技术栈**：Go · A2A · PostgreSQL / pgvector · Redis · Next.js
+- **工程重点**：产品状态机编排协作链路，通过 A2A 连接规划服务；LLM 负责意图与规划，规则引擎负责兼容性与核算，交付前复验并保留报价日期与证据。
+- **技术栈**：Go · Google ADK · A2A · PostgreSQL / pgvector · Redis · Next.js
 
 ### [白桦网站秒搭](https://github.com/subaru-ye/ye-ai-web-factory)
 
